@@ -70,6 +70,7 @@ def create_legend(class_dict, class_list):
 st.title('D33P Learning on Edge: Land Cover Classification')
 st.markdown('Authors: Sebastián González, Andreína Sanánez, Luis Javier Karam')
 st.write('This is a demo of a land cover classification model using PyTorch and DeepLabV3 with a ResNet-50 backbone.')
+st.markdown('You can download sample images from [this Google Drive](https://drive.google.com/drive/folders/1iAFViqL08HmDWSYXsu-1SUwS9dWy1-ct?usp=sharing).')
 st.toast('Welcome to our land cover classification model demo!', icon='🌍')
 
 uploaded_file = st.file_uploader('Choose an image...', type='jpg')
